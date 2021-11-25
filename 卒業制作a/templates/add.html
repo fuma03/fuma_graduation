@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
     <title>卒業制作a</title>
 </head>
 <body>
     <header>
         <p class="title">公園の追加</p>
     </header>
+    {% block content %}
+    {% endblock %}
+
   <form action="/add" method="post" enctype="multipart/form-data">
     <input type="text" name = "name">
     <input type="text" name = "address">
     <input type="file" name="image" accept="image/*" required>
+    <p>該当するものをチェックしてね</p>
+    <!-- <label>
+        <input type="checkbox" name="parking" id="">
+    </label> -->
+
 
     <input type="submit" value="追加＋" name="save">
     <input type="reset" value="取り消しする-">
