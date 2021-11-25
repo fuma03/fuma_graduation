@@ -1,0 +1,486 @@
+/* screen - kensaku */
+
+.kensaku {
+  align-items: center;
+  background-color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  height: 1938px;
+  width: 1144px;
+}
+
+.kensaku .overlap-group8 {
+  height: 78px;
+  position: relative;
+  width: 1144px;
+}
+
+.kensaku .component-1 {
+  align-items: flex-end;
+  background-color: var(--irish-coffee);
+  display: flex;
+  height: 78px;
+  left: 0;
+  min-width: 1144px;
+  padding: 13.6px 25.8px;
+  position: absolute;
+  top: 0;
+}
+
+.kensaku .overlap-group-4 {
+  height: 48px;
+  position: relative;
+  width: 916px;
+}
+
+.kensaku .text-16 {
+  left: 279px;
+  letter-spacing: 0;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 0;
+  width: 637px;
+}
+
+.kensaku .text-17 {
+  left: 0;
+  letter-spacing: 0;
+  position: absolute;
+  text-shadow: 0px 4px 4px #00000040;
+  top: 27px;
+}
+
+.kensaku .rectangle-39 {
+  background-color: var(--mist-gray);
+  height: 50px;
+  left: 941px;
+  position: absolute;
+  top: 14px;
+  width: 188px;
+}
+
+.kensaku .text-49 {
+  left: 949px;
+  letter-spacing: 0;
+  position: absolute;
+  top: 18px;
+}
+
+.kensaku .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 55.0px;
+  margin-top: 36px;
+  min-width: 937px;
+}
+
+.kensaku .overlap-group11 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  min-width: 268px;
+  padding: 17px 31px;
+}
+
+.kensaku .text {
+  letter-spacing: 0;
+  min-height: 31px;
+  width: 159px;
+}
+
+.kensaku .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 66px;
+  min-width: 268px;
+  padding: 28px 22px;
+}
+
+.kensaku .text-2 {
+  letter-spacing: 0;
+  min-height: 16px;
+  width: 185px;
+}
+
+.kensaku .overlap-group9 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 67px;
+  min-width: 268px;
+  padding: 21px 47px;
+}
+
+.kensaku .text-2-1 {
+  letter-spacing: 0;
+  min-height: 30px;
+  width: 133px;
+}
+
+.kensaku .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 55.0px;
+  margin-top: 15px;
+  min-width: 937px;
+}
+
+.kensaku .overlap-group3 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  min-width: 268px;
+  padding: 17px 53px;
+}
+
+.kensaku .text-2-2 {
+  letter-spacing: 0;
+  min-height: 31px;
+  width: 132px;
+}
+
+.kensaku .overlap-group {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  margin-left: 66px;
+  min-width: 268px;
+  padding: 25px 48px;
+}
+
+.kensaku .text-2-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 133px;
+}
+
+.kensaku .overlap-group19 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  margin-left: 67px;
+  min-width: 268px;
+  padding: 20px 25px;
+}
+
+.kensaku .overlap-group2 {
+  align-items: center;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  min-width: 268px;
+  padding: 0 68px;
+}
+
+.kensaku .text-3 {
+  letter-spacing: 0;
+  min-height: 15px;
+  width: 106px;
+}
+
+.kensaku .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 66px;
+  min-width: 268px;
+  padding: 28px 48px;
+}
+
+.kensaku .text-3-1 {
+  letter-spacing: 0;
+  min-height: 16px;
+  width: 133px;
+}
+
+.kensaku .overlap-group17 {
+  align-items: flex-start;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 67px;
+  min-width: 268px;
+  padding: 21px 50px;
+}
+
+.kensaku .text-3-2 {
+  letter-spacing: 0;
+  min-height: 30px;
+  width: 132px;
+}
+
+.kensaku .overlap-group10 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  min-width: 268px;
+  padding: 17px 32px;
+}
+
+.kensaku .overlap-group21 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 67px;
+  min-width: 268px;
+  padding: 21px 45px;
+}
+
+.kensaku .overlap-group7 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  min-width: 268px;
+  padding: 17px 60px;
+}
+
+.kensaku .overlap-group12 {
+  align-items: flex-end;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 74px;
+  justify-content: flex-end;
+  margin-left: 67px;
+  min-width: 268px;
+  padding: 20px 27px;
+}
+
+.kensaku .overlap-group16 {
+  align-items: center;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  min-width: 268px;
+  padding: 0 66px;
+}
+
+.kensaku .overlap-group6 {
+  align-items: flex-start;
+  background-color: var(--sun);
+  border-radius: 12px;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 67px;
+  min-width: 268px;
+  padding: 21px 49px;
+}
+
+.kensaku .overlap-group5 {
+  align-items: flex-end;
+  background-image: url(../img/rectangle-24-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 73px;
+  justify-content: flex-end;
+  margin-left: 55.0px;
+  margin-top: 23px;
+  min-width: 401px;
+  padding: 6px 42px;
+}
+
+.kensaku .text-36 {
+  letter-spacing: 0;
+  min-height: 41px;
+  width: 280px;
+}
+
+.kensaku .overlap-group1-1 {
+  align-items: flex-end;
+  background-color: var(--heath);
+  display: flex;
+  height: 1190px;
+  margin-top: 23px;
+  min-width: 1144px;
+  padding: 24px 64px;
+}
+
+.kensaku .flex-col-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  min-height: 1114px;
+  width: 239px;
+}
+
+.kensaku .overlap-group-2 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 348px;
+  width: 239px;
+}
+
+.kensaku .unsplash {
+  height: 228px;
+  margin-left: 1.0px;
+  width: 238px;
+}
+
+.kensaku .text-37 {
+  letter-spacing: 0;
+  margin-left: 22.0px;
+  margin-top: 34px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .overlap-group-3 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  min-height: 348px;
+  width: 239px;
+}
+
+.kensaku .text-38 {
+  letter-spacing: 0;
+  margin-left: 22.0px;
+  margin-top: 38px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-39 {
+  letter-spacing: 0;
+  margin-left: 26.0px;
+  margin-top: 35px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  min-height: 1114px;
+  width: 239px;
+}
+
+.kensaku .text-40 {
+  letter-spacing: 0;
+  margin-left: 16.0px;
+  margin-top: 36px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-41 {
+  letter-spacing: 0;
+  margin-left: 16.0px;
+  margin-top: 40px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-42 {
+  letter-spacing: 0;
+  margin-left: 20.0px;
+  margin-top: 37px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-43 {
+  letter-spacing: 0;
+  margin-left: 18.0px;
+  margin-top: 36px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-44 {
+  letter-spacing: 0;
+  margin-left: 18.0px;
+  margin-top: 40px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-45 {
+  letter-spacing: 0;
+  margin-left: 22.0px;
+  margin-top: 37px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-46 {
+  letter-spacing: 0;
+  margin-left: 16.0px;
+  margin-top: 38px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-47 {
+  letter-spacing: 0;
+  margin-left: 16.0px;
+  margin-top: 42px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
+
+.kensaku .text-48 {
+  letter-spacing: 0;
+  margin-left: 20.0px;
+  margin-top: 39px;
+  min-height: 48px;
+  min-width: 185px;
+  text-align: right;
+}
