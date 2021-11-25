@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request, redirect
 import sqlite3
 
+app = Flask(__name__)
+app.secret_key = "卒a"
+
 @app.route("/dbtest")
 def dbtest():
     on = sqlite3.connect("卒業制作.db")
@@ -15,3 +18,10 @@ def dbtest():
 @app.route("/add")
 def add():
     return render_template("add.html")
+
+
+
+if __name__ == "__main__":
+    app.run()
+
+app.run(debug = True)
