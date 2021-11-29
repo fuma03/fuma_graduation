@@ -1,7 +1,10 @@
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, g, url_for, abort, flash
 import sqlite3
 
 app = Flask(__name__)
+
+UPLOAD_FOLDER = "./static/img/"
+app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
 @app.route("/")
 def hello():
