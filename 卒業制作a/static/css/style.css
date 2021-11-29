@@ -1,6 +1,7 @@
 .item{
     text-align: center;
     height: 500;
+    font-size: 25px;
   }
 
 .demo1{
@@ -9,7 +10,8 @@
   margin-left: auto;
 }
 body {
-  background-color: #d4b1ac;
+  background-color: #c2b0b0;
+  font-size: 25px;
 }
 
 body > ol {
@@ -20,8 +22,12 @@ p {
   line-height:30px;
   }
 
-  .demo2{
-    width: 600px;
-    margin-right: auto;
-    margin-left: auto;
+.demo2{
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
   }
+
+.copyright{
+  text-align: right;
+}
