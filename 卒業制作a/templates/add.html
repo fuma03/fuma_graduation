@@ -12,14 +12,14 @@
     </header>
 
   <form action="/add" method="POST" enctype="multipart/form-data">
-    <input type="text" name="id">
+    <!-- <input type="text" name="id"> -->
     <input type="text" name = "name">
     <input type="text" name = "address">
     <p>特徴をコメントしてね！</p>
     <input type="text" name="comment" >
     <p>写真をUPしてね</p>
-    <input type="file" name="image" accept="image/*" required>
-    <p>該当するものをチェックしてね</p>
+    <input type="file" name="image"  accept="image/*" required>
+    <p>該当するものをチェックしてね </p>
         <label><input type="checkbox" name="parking" >駐車場が広い</label>
         <label><input type="checkbox" name="toilet" >多目的トイレがある</label>
         <label><input type="checkbox" name="playset" >遊具が多い</label>
@@ -35,5 +35,9 @@
     <input type="submit" value="追加＋" name="save">
     <input type="reset" value="取り消しする-">
   </form>
+
+
 </body>
+
+
 </html>
