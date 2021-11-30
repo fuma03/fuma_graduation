@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>卒業制作a</title>
 </head>
 <body>
@@ -13,12 +14,17 @@
 
   <form action="/add" method="POST" enctype="multipart/form-data">
     <!-- <input type="text" name="id"> -->
+    <p></p>
     <input type="text" name = "name">
     <input type="text" name = "address">
+
+    <p>画像変更</p>
+    <input type="file" name="image">
+    
     <p>特徴をコメントしてね！</p>
     <input type="text" name="comment" >
-    <p>写真をUPしてね</p>
-    <input type="file" name="image"  accept="image/*" required>
+    <!-- <p>写真をUPしてね</p>
+    <input type="file" name="image"  accept="image/*" required> -->
     <p>該当するものをチェックしてね </p>
         <label><input type="checkbox" name="parking" >駐車場が広い</label>
         <label><input type="checkbox" name="toilet" >多目的トイレがある</label>
@@ -31,7 +37,7 @@
         <label><input type="checkbox" name="hot_spring">近くに温泉がある<label>
         <label><input type="checkbox" name="traffic">交通アクセスが良い </label>
     
-
+    <p>追加・取り消しボタンだよ！</p>
     <input type="submit" value="追加＋" name="save">
     <input type="reset" value="取り消しする-">
   </form>

@@ -1,21 +1,31 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h2>{{html_parks_info[0]}}</h2>
-<p>住所{{html_parks_info[1]}}</p>
+<h2 class="park_a">{{html_parks_info[0]}} ・{{html_parks_info[1]}}</h2>
+<p class="park_b">住所{{html_parks_info[2]}}</p>
+<!-- <img src="/static/img/{{html_parks_info[1]}}" alt="" class="prof_img">
+<p>画像変更</p>
+<form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="upload"></br>
+        <input type="submit" value="画像アップロード"></br>
+</form> -->
 
-<p>{{html_parks_info[2]}}</p>
-<p>{{html_parks_info[3]}}</p>
-<p>皆様からのコメント
-    {{html_parks_info[4]}}</p>
-<p><a href="/卒業制作a/static/img/image.png"></a>{{html_parks_info[5]}}</p>
-<p>{{html_parks_info[6]}}</p>
-<p>{{html_parks_info[7]}}</p>
-<p>{{html_parks_info[8]}}</p>
-<p>{{html_parks_info[9]}}</p>
-<p>{{html_parks_info[10]}}</p>
-<p>{{html_parks_info[11]}}</p>
-<p>{{html_parks_info[12]}}</p>
-<p>{{html_parks_info[13]}}</p>
+
+<img src="/static/img/{{html_parks_info[14]}}" alt="" class="image">
+
+
+<p class="park_c">皆様からのコメント！！</p>
+<p class="park_ca">{{html_parks_info[3]}}</p>
+<p class="park_d"><img src="../static/img/imagee.png" alt="ffff">{{html_parks_info[4]}}
+<img src="../static/img/imagea.png" alt="aaa">{{html_parks_info[5]}}
+<img src="../static/img/imagez.png" alt="eee">{{html_parks_info[6]}}
+<img src="../static/img/imagecc.png" alt="wwww">{{html_parks_info[7]}}
+<img src="../static/img/image.png" alt="ddd">{{html_parks_info[8]}}
+<img src="../static/img/imageh.png" alt="ggg">{{html_parks_info[9]}}
+<img src="../static/img/imageg.png" alt="">{{html_parks_info[10]}}
+<img src="../static/img/imageee.png" alt="jjjj">{{html_parks_info[11]}}
+<img src="../static/img/imaged.png" alt="kkkk">{{html_parks_info[12]}}
+<img src="../static/img/images.png" alt="nnnn">{{html_parks_info[13]}}
+</p>
 
 {% endblock %}
