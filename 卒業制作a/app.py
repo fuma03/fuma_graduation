@@ -7,6 +7,11 @@ app = Flask(__name__, static_folder='./templates/img')
 def add():
     return render_template("torisetu.html",)
 
+@app.route("/quest")
+def quest():
+    return render_template("quest.html",)
+
+
 if __name__ == "__main__":
     app.run(debug=True)
 
