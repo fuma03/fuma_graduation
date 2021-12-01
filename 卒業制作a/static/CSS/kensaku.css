@@ -1,0 +1,119 @@
+.item {
+  text-align: center;
+  height: 500;
+}
+
+.demo1 {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: #553B28;
+  align-items: center;
+}
+
+.title {
+  margin-left: auto;
+  color: gold;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 0 0 auto;
+}
+
+.subtitle {
+  color: rgb(157, 157, 161);
+}
+
+a.btn--yellow {
+  color: #000;
+  background-color: slategray;
+  border-bottom: 5px solid slategray;
+  margin: 0 0 0 auto;
+}
+
+a.btn--yellow:hover {
+  margin-top: 3px;
+  color: #000;
+  background: slategray;
+  border-bottom: 2px solid slategray;
+  margin: 0 0 0 auto;
+}
+
+
+body {
+  background-color: #C2B0B0;
+}
+
+body>ol {
+  width: 500px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.demo2 {
+  width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.copyright {
+  text-align: right;
+}
+
+
+/* チェックボックスを非表示にする */
+.original_checkbox input[type=checkbox] {
+  display: none;
+}
+
+/* 選択されたチェックボックスの兄弟であるlabel */
+.original_checkbox input[type=checkbox]:checked+label {
+  background: url(../img/check.png) no-repeat;
+  background-size: 15px;
+  background-position: 15px 14px;
+  background-color: #ddd;
+
+}
+
+.original_checkbox {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: auto;
+  color: #553a27;
+  size: 20px;
+}
+
+.original_checkbox li {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-bottom: none;
+}
+
+.original_checkbox li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.original_checkbox li:last-child {
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.original_checkbox label {
+  display: block;
+  width: 100%;
+  padding: 10px 0px 10px 40px;
+  cursor: pointer;
+}

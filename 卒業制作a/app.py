@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<p>ありがとう</p>"
+    return render_template("base.html")
     
 @app.route("/dbtest")
 def dbtest():
@@ -29,6 +29,14 @@ def dbtest():
 @app.route("/add")
 def add():
     return render_template("add.html")
+
+@app.route("/quest")   
+def quest():
+    return render_template("quest.html")
+
+@app.route("/torisetu")
+def torisetu():
+    return render_template("torisetu.html")
 
 @app.route("/add", methods = ["POST"])
 def add_post():
@@ -62,7 +70,31 @@ def add_post():
     # c.execute("update parks set image = ? where id=?", (filename,parks_id))
     con.commit()
     con.close()
-    return redirect("/")
+    return redirect("/list")
+
+
+@app.route("/list")
+def list():
+    con = sqlite3.connect("graduation.db")
+    c = con.cursor()
+    c.execute("select id, name from parks")
+    parks_list = []
+    for row in c.fetchall():
+        parks_list.append({"id":row[0], "name":row[1]})
+    print(parks_list)
+    c.close()
+    return render_template("list.html", parks_list = parks_list)
+    
+@app.route("/detail/<id>")
+def detail(id):
+    parks_id = id
+    con = sqlite3.connect("graduation.db")
+    c = con.cursor()
+    c.execute("select * from parks where id = ? ",(parks_id,))
+    parks_info = c.fetchone()
+    c.close()
+    return render_template("detail.html",html_parks_info = parks_info)
+
 
 
 def get_save_path():
