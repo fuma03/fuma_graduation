@@ -17,7 +17,7 @@ def hello():
     
 @app.route("/dbtest")
 def dbtest():
-    con = sqlite3.connect("卒業制作.db")
+    con = sqlite3.connect("graduation.db")
     c = con.cursor()
     c.execute("SELECT * FROM parks WHERE id =1")
     parks_info = c.fetchone()
@@ -56,7 +56,7 @@ def add_post():
     traffic  = request.form.get("traffic")
     comment  = request.form.get("comment")
 
-    con = sqlite3.connect("卒業制作.db")
+    con = sqlite3.connect("graduation.db")
     c = con.cursor() 
     c.execute("insert into parks values(null,?,?,?,?,?,?,?,?,?,?,?,?,?,?)", (name, address, comment, parking, toilet, playset, convenience, history, vending, plaza, water, hot_spring, traffic, filename))
     # c.execute("update parks set image = ? where id=?", (filename,parks_id))
