@@ -26,16 +26,132 @@
 
  <p class="park_c">皆様からのコメント！！</p>
  <p class="park_ca">{{html_parks_info[3]}}</p>
- <p class="park_d"><img src="../static/img/imagee.png" alt="ffff">{{html_parks_info[4]}}
- <img src="../static/img/imagea.png" alt="aaa">{{html_parks_info[5]}}
- <img src="../static/img/imagez.png" alt="eee">{{html_parks_info[6]}}
- <img src="../static/img/imagecc.png" alt="wwww">{{html_parks_info[7]}}
- <img src="../static/img/image.png" alt="ddd">{{html_parks_info[8]}}
- <img src="../static/img/imageh.png" alt="ggg">{{html_parks_info[9]}}
- <img src="../static/img/imageg.png" alt="">{{html_parks_info[10]}}
- <img src="../static/img/imageee.png" alt="jjjj">{{html_parks_info[11]}}
- <img src="../static/img/imaged.png" alt="kkkk">{{html_parks_info[12]}}
- <img src="../static/img/images.png" alt="nnnn">{{html_parks_info[13]}}
+ <p class="park_d"><img src="../static/img/imagee.png" alt="ffff">
+    <script>
+        var x = {{html_parks_info [4]|tojson}}
+        if (x == "on") {
+            // document.write("<img src="/static/img/imageegg.pug," alt=",ssssss,"><img src="/static/img/imageegz.png," alt=",ssssss,">");
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+
+ <img src="../static/img/imagea.png" alt="aaa">
+ <script>
+        var x = {{html_parks_info [5]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+
+ <img src="../static/img/imagez.png" alt="eee">
+ <script>
+        var x = {{html_parks_info [6]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/imagecc.png" alt="wwww">
+ <script>
+        var x = {{html_parks_info [7]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/image.png" alt="ddd">
+ <script>
+        var x = {{html_parks_info [8]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/imageh.png" alt="ggg">
+ <script>
+        var x = {{html_parks_info [9]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/imageg.png" alt="">
+ <script>
+        var x = {{html_parks_info [10]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/imageee.png" alt="jjjj">
+ <script>
+        var x = {{html_parks_info [11]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/imaged.png" alt="kkkk">
+ <script>
+        var x = {{html_parks_info [12]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
+ <img src="../static/img/images.png" alt="nnnn">
+ <script>
+        var x = {{html_parks_info [13]|tojson}}
+        if (x == "on") {
+            document.write("<img src='../static/img/imagegg.png'>")
+
+            console.log ("../static/img/imagegg.png");
+        } else {
+            document.write("<img src='../static/img/imagegz.png'>")
+            console.log ("../static/img/imagegz.png");
+        }
+    </script>
  </p>
+
+ <p class="copyright">Copyright &copy; WakuWakuParkQuest all rights reserved.</p>
+ 
 
 </body>

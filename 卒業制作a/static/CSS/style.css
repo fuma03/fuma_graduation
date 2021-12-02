@@ -73,7 +73,7 @@ a.btn--yellow:hover {
   margin: 0 0 0 auto;
 }
 
-/* .park_b {
+.park_b {
   font-size: 22px;
 }
 
@@ -81,7 +81,8 @@ img.image {
   width: 900px;
   height: 480px;
   padding-left: 288px;
-} */
+}
+
 .addtion {
   background-color: #C2B0B0;
   padding-top: 24px;
@@ -124,4 +125,18 @@ img.image {
 .twitter-timeline {
   /* padding-top: 20px; */
   margin-top: 20px;
+}
+
+.park_c {
+  font-size: 26px;
+}
+
+.park_ca {
+
+  font-size: 22px;
+  padding-bottom: 18px;
+}
+
+.park_d {
+  font-size: 22px;
 }

@@ -15,8 +15,47 @@
 </header>
 
 <body>
+    <img src="../static/img/ステージ検索タイトル画像.jpg" alt="" width="100%" height="100%">
+ 
     
+    <ul class="original_checkbox">
+        <b><span style="color:#ff0000">特徴検索</span></b>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature1" value="1"><label for="original_feature1">駐車場が広い</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature2" value="2"><label for="original_feature2">多目的トイレがある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature3" value="3"><label for="original_feature3">遊具が多い</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature4" value="4"><label for="original_feature4">近くにコンビニがある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature5" value="5"><label for="original_feature5">歴史がある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature6" value="6"><label for="original_feature6">自動販売機がある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature7" value="7"><label for="original_feature7">大きい広場がある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature8" value="8"><label for="original_feature8">水場がある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature9" value="9"><label for="original_feature9">近くに温泉がある</label>
+      </li>
+      <li>
+        <input type="checkbox" name="feature" id="original_feature10" value="10"><label for="original_feature10">交通アクセスが多い</label>
+      </li>
+      <button onclick="getValue()">公園をけんさく！</button>
+    </ul>   
 
+
+
+<h2>公園の一覧だよ！！</h2>
  <table border="1">
      {%for parks in parks_list%}
      <tr>

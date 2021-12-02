@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from flask import Flask, render_template, request, redirect
+from flask import Flask, render_template, request, redirect, url_for
 
 
 app = Flask(__name__)
@@ -25,6 +25,10 @@ def dbtest():
     print(parks_info)
     return render_template("dbtest.html",html_parks_info = parks_info)
 
+
+@app.route("/error")
+def error():
+    return redirect("error.html")
 
 @app.route("/add")
 def add():
@@ -100,6 +104,7 @@ def detail(id):
 def get_save_path():
     path_dir = "./static/img"
     return path_dir
+
 
 
 if __name__ == "__main__":
